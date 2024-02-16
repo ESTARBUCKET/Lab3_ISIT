@@ -1,6 +1,7 @@
 import {ProductComponent} from "../../components/product/index.js";
 import {BackButtonComponent} from "../../components/back-button/index.js";
 import {MainPage} from "../main/index.js";
+import {ToastComponent} from "../../components/toast/index.js";
 
 export class ProductPage {
     constructor(parent, id) {
@@ -45,5 +46,6 @@ export class ProductPage {
         const data = this.getData()
         const stock = new ProductComponent(this.pageRoot)
         stock.render(data)
+
     }
 }

@@ -9,12 +9,6 @@ export class ProductCardComponent {
             .addEventListener("click", listener)
     }
 
-    render(data, listener) {
-        const html = this.getHTML(data)
-        this.parent.insertAdjacentHTML('beforeend', html)
-        this.addListeners(data,listener)
-    }
-
     getHTML(data) {
         return (
             `
@@ -28,5 +22,11 @@ export class ProductCardComponent {
                 </div>
             `
         )
+    }
+
+    render(data, listener) {
+        const html = this.getHTML(data)
+        this.parent.insertAdjacentHTML('beforeend', html)
+        this.addListeners(data,listener)
     }
 }

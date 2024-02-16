@@ -1,3 +1,5 @@
+import {ToastComponent} from "../toast";
+
 export class BackButtonComponent {
     constructor(parent) {
         this.parent = parent;
