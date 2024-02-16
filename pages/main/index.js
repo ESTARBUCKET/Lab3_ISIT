@@ -29,21 +29,21 @@ export class MainPage {
         return [
             {
                 id: 1,
-                src: "https://i.pinimg.com/originals/c9/ea/65/c9ea654eb3a7398b1f702c758c1c4206.jpg",
-                title: "Акция",
-                text: "Такой акции вы еще не видели 1"
+                src: "https://юридическаяпомощь.москва/upload/iblock/a55/hlah4o220q4ane5i7hnjv183ri4h0y4p.jpg",
+                title: "МММама дорогая, какая низкая ставка!",
+                text: "Оформим кредит с кайфом"
             },
             {
                 id: 2,
-                src: "https://i.pinimg.com/originals/c9/ea/65/c9ea654eb3a7398b1f702c758c1c4206.jpg",
-                title: "Акция",
-                text: "Такой акции вы еще не видели 2"
+                src: "https://api.psychologos.ru/storage/image/495lmtoe.jpg",
+                title: "Сделайте ВКЛАД",
+                text: "И получите процент (#аналоговнет)"
             },
             {
                 id: 3,
-                src: "https://i.pinimg.com/originals/c9/ea/65/c9ea654eb3a7398b1f702c758c1c4206.jpg",
-                title: "Акция",
-                text: "Такой акции вы еще не видели 3"
+                src: "https://bankovskie-karty.ru/wp-content/uploads/2021/12/bank-kommercheskij-chto-eto.jpg",
+                title: "Коммерческий банк",
+                text: "Что же делать нам с монетой?"
             },
         ]
     }

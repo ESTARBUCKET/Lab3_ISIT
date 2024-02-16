@@ -11,9 +11,9 @@ export class ProductPage {
     getData() {
         return {
             id: 1,
-            src: "https://i.pinimg.com/originals/c9/ea/65/c9ea654eb3a7398b1f702c758c1c4206.jpg",
-            title: `Акция ${this.id}`,
-            text: "Такой акции вы еще не видели"
+            src: "https://mykaleidoscope.ru/x/uploads/posts/2022-10/1666110608_49-mykaleidoscope-ru-p-plachushchii-kot-instagram-55.jpg",
+            title: `А что вы думали тут что-то будет?`,
+            text: "У-у-у-у, не-е-е-т, н-е-е-т"
         }
     }
 
