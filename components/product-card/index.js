@@ -9,7 +9,7 @@ export class ProductCardComponent {
             .addEventListener("click", listener)
     }
 
-    render(data) {
+    render(data, listener) {
         const html = this.getHTML(data)
         this.parent.insertAdjacentHTML('beforeend', html)
         this.addListeners(data,listener)
