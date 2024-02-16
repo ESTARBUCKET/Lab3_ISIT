@@ -17,7 +17,7 @@ export class MainPage {
             `
         )
     }
-    
+  
     clickCard(e) {
         const cardId = e.target.dataset.id
     
