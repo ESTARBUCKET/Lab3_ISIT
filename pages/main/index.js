@@ -25,7 +25,7 @@ export class MainPage {
         productPage.render()
     }
 
-    getData() {
+        getData() {
         return [
             {
                 id: 1,

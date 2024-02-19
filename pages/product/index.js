@@ -1,6 +1,7 @@
 import {ProductComponent} from "../../components/product/index.js";
 import {BackButtonComponent} from "../../components/back-button/index.js";
 import {MainPage} from "../main/index.js";
+import { ToastComponent } from "../../components/toast/index.js";   
 
 export class ProductPage {
     constructor(parent, id) {
@@ -30,6 +31,7 @@ export class ProductPage {
     }
 
     clickBack() {
+        const myToast = new ToastComponent("This is a toast notification!")
         const mainPage = new MainPage(this.parent)
         mainPage.render()
     }
@@ -40,6 +42,7 @@ export class ProductPage {
         this.parent.insertAdjacentHTML('beforeend', html)
 
         const backButton = new BackButtonComponent(this.pageRoot)
+             
         backButton.render(this.clickBack.bind(this))
 
         const data = this.getData()
