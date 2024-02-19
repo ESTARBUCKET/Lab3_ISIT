@@ -31,7 +31,6 @@ export class ProductPage {
     }
 
     clickBack() {
-        const myToast = new ToastComponent("This is a toast notification!")
         const mainPage = new MainPage(this.parent)
         mainPage.render()
         const myToast = new ToastComponent("This is a toast notification!")

@@ -5,13 +5,8 @@ export class ToastComponent {
       this.toast.id = "toast"
       this.toast.innerHTML = `<p>${this.message}</p>`
       document.body.appendChild(this.toast)
-<<<<<<< Updated upstream
-      this.toastBtn = document.getElementById("back-button")
-      this.toastBtn.addEventListener("click", () => this.show())
-=======
       //this.toastBtn = document.getElementById("back-button")
       //this.toastBtn.addEventListener("click", () => this.show())
->>>>>>> Stashed changes
     }
 
     show() {
